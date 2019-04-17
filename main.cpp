@@ -69,6 +69,7 @@ int main(int argc, char *argv[])
         }
 		// 2 commit golovinova
         qError(errorDescription);
+		// 3 commit golovinova
         return 1;
     }
 
