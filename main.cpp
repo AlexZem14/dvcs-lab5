@@ -74,7 +74,7 @@ int main(int argc, char *argv[])
 	// master commmit 5
     if(!putToMap(matchList, match))
         return 1;
-
+// master commit 6
     QVector<int> chain;
     if(!putToVector(stringChain, chain, match))
         return 1;
