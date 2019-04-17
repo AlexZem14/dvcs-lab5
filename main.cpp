@@ -53,7 +53,7 @@ int main(int argc, char *argv[])
         qError(errorDescription);
         return 1;
     }
-
+// 4 commit master
     QString stringChain;
     if(!readChain(argv[2], stringChain, error))
     {
