@@ -67,6 +67,7 @@ int main(int argc, char *argv[])
         {
             errorDescription += "не получается открыть";
         }
+		// 2 commit golovinova
         qError(errorDescription);
         return 1;
     }
