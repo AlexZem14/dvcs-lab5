@@ -62,6 +62,7 @@ int main(int argc, char *argv[])
         {
             errorDescription += "не существует";
         }
+		// 1 commit golovinova
         else if(error.type == errorType::noOpenFile)
         {
             errorDescription += "не получается открыть";
