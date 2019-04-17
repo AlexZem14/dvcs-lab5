@@ -71,6 +71,7 @@ int main(int argc, char *argv[])
         qError(errorDescription);
 		// 3 commit golovinova
         return 1;
+		// 4 commit golovinova
     }
 
     QMap<int, QString> match;
