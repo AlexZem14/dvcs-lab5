@@ -78,7 +78,7 @@ int main(int argc, char *argv[])
     QVector<int> chain;
     if(!putToVector(stringChain, chain, match))
         return 1;
-
+// master commit 7
     QVector<QString> mappedModes;
     matchModes(match, chain, mappedModes);
 
