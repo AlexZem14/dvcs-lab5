@@ -81,7 +81,7 @@ int main(int argc, char *argv[])
 // master commit 7
     QVector<QString> mappedModes;
     matchModes(match, chain, mappedModes);
-
+// master commit 8
     if(!writeData(mappedModes,argv[3]))
         return 1;
     return 0;
