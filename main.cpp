@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
     _setmode(_fileno(stderr), _O_U8TEXT); // Режим вывода в stderr в кодировке UTF-8
-
+// 2 commit master
     error error;
     if(!checkArguments(argc, argv, error))
     {
