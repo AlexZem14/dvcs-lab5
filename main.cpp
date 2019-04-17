@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
         qError(errorDescription);
         return 1;
     }
-
+// 3 commit master
     QStringList matchList;
     if(!readMatch(argv[1], matchList, error))
     {
